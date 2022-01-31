@@ -163,9 +163,7 @@ body {
 #danica-media {
     padding: 100px 25px 100px 25px;
     clear: both;
-    background-image: url(assets/danica/danica-bg-sized.png);
     background-position: center;
-    background-size: cover;
     margin-bottom: 100px;
 }
 
