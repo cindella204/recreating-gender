@@ -1,0 +1,285 @@
+@charset "UTF-8";
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    }
+
+body {
+    background-color: #080808;
+    font-family: semplicitapro, sans-serif;
+    color: white;
+}
+
+
+
+/*PROJECT INTRO*/
+
+#title-section {
+    height: 100vh;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+}
+
+#title-section h1 {
+    font-size: 4em;
+    padding-top: 30vh;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+#title-section h2 {
+    font-size: 2.5em;
+    line-height: 110%;
+    font-weight: 400;
+}
+
+#project-intro {
+    text-align: center;
+    margin-bottom: 250px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.big-center {
+    font-size: 2em;
+    margin-bottom: 50px;
+   
+}
+
+#warning {
+    color: #929feb;
+    margin-bottom: 40vh;
+}
+
+#project-statement {
+    margin-bottom: 200px;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+
+.blockquote {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #929feb;
+    padding: 50px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin-left: -10%;
+    margin-right: -10%;
+    color: #eb92cb;
+    margin-bottom: 200px;
+}
+
+.blockquote-2 {
+    border-style: solid;
+    border-width: 5px;
+    border-color: #929feb;
+    padding: 50px;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.6em;
+    margin-left: -10%;
+    margin-right: -10%;
+    color: #92cbeb;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+#what-is-gender h2 {
+    font-size: 2em
+}
+
+#what-is-gender p{
+    font-size: 1.5em;
+    margin-bottom: 50px;
+}
+
+
+
+/*ARTIST FEATURES*/
+
+.artist-intro {
+    max-width: 1500px;
+    margin: auto;
+    float: none;
+}
+
+.main-profile-img {
+    max-width: 60vw;
+    max-height: 100vh;
+    float: left;
+    margin-right: 3vw;
+    margin-bottom: 50px;
+}
+
+.stats {
+    padding-top: 20vh;
+    padding-left: 10vw;
+    font-size: 1.25em;
+    line-height: 1em;
+    display: block;
+}
+
+
+.stats i {
+    float: left;
+    padding-right: 8px;
+    color: #929feb;
+}
+
+.stats a {
+    text-decoration: none;
+    color: #929feb;
+    font-weight: 600;
+}
+
+#graeson-media {
+    padding: 100px 25px 100px 25px;
+    clear: both;
+    background-image: url(assets/graeson/media-bg-texture.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+
+.graeson-row-1 {
+    height: 45vw;
+    margin: 0px 1.5vw 5vw 3vw;
+}
+
+.graeson-row-2 {
+    height: 40vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-bottom: 5vh;
+}
+
+#danica-media {
+    padding: 100px 25px 100px 25px;
+    clear: both;
+    background-image: url(assets/danica/danica-bg-sized.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+#danica-row-1 {
+    max-height: 610px;
+    width: 100vw;
+    margin-bottom: 5vw;
+}
+
+#danica-1 {
+    width: 26%;
+    float: left;
+    margin-right: 5%;
+    
+}
+
+#danica-2 {
+    width: 15%;
+    margin-right: 5%;
+}
+
+#danica-3 {
+    width: 42%;
+}
+
+#danica-row-2 {
+    max-height: 610px;
+    width: 100vw;
+    margin-bottom: 5vw;
+    
+}
+
+#danica-4 {
+    width: 31.2%;
+    margin-right: 5.5%;
+}
+
+#danica-5 {
+    width: 56.3%;
+}
+
+#danica-row-3 {
+    max-height: 610px;
+    width: 100vw;
+    margin-bottom: 5vw;
+}
+
+#danica-6 {
+    width: 55.6%;
+    margin-right: 5%;
+}
+
+#danica-7 {
+    width: 31.3%;
+}
+
+#danica-row-4 {
+    max-height: 610px;
+    width: 100vw;
+    margin-bottom: 5vw;
+}
+
+#danica-8 {
+    width: 25.6%;
+    margin-right: 5%;
+}
+
+#danica-9 {
+    width: 61.4%
+}
+
+#jean-paul-media {
+    text-align: center;
+    padding: 100px 25px 100px 25px;
+    clear: both;
+}
+
+#jp-vid {
+    width: 75vw;
+}
+
+/*CLOSING*/
+
+#closing {
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+
+.future-vids {
+    margin: 50px 10px 50px 10px;
+    width: 20vw;
+}
+
+#CTA a {
+    text-decoration: none;
+    
+}
+
+#acknowledgements {
+    margin-top: 30vh;
+}
+
+#footer {
+    text-align: center;
+    font-size: .75em;
+    margin-top: 200px;
+    padding-bottom: 50px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: #929feb;
+}
